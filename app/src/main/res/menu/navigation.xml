@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/trangchu"
+        android:title="Trang chủ"
+        android:icon="@drawable/back"/>
+   <item android:title="Chỉnh sửa"
+       app:showAsAction="always"
+       android:icon="@drawable/setting">
+      <menu>
+          <item android:title="Thay đổi dữ liệu"
+              android:icon="@drawable/back"
+              android:id="@+id/dulieu"
+              />
+
+          <item android:title="Lời nhắn từ Dev"
+              android:icon="@drawable/back"
+              android:id="@+id/thongdiep"
+              />
+
+          <item android:title="Ngày sinh nhật"
+              android:id="@+id/themngaysinh"
+              android:icon="@drawable/back"/>
+      </menu>
+
+   </item>
+
+
+
+
+  <item android:id="@+id/color"
+      android:title="Thay đổi màu chữ"
+      android:icon="@drawable/back"
+
+      />
+
+    <item android:id="@+id/macdinh"
+        android:title="Mặc Định màu"
+        android:icon="@drawable/back"
+
+        />
+
+    <item android:id="@+id/pass"
+        android:title="Khóa ứng dụng"
+        android:icon="@drawable/back"
+
+        />
+
+  <item android:id="@+id/thoat"
+      android:icon="@drawable/back"
+      android:title="Thoát"
+
+      />
+
+</menu>

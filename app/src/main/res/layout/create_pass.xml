@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <com.andrognito.patternlockview.PatternLockView
+        android:layout_centerInParent="true"
+        android:id="@+id/pattern_lock_view"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        app:correctStateColor="#333"
+        app:normalStateColor="@color/mauhongnhat"
+        app:wrongStateColor="@color/mauhongnhat"/>
+
+    <TextView
+        android:id="@+id/pass"
+        android:textStyle="bold"
+        android:textColor="@color/mauhongnhat"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tạo mật khẩu"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:text="DESIGN BY DevAndroid" />
+
+</RelativeLayout>

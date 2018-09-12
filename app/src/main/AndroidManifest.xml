@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dev.lovehoanthien"
+    android:versionCode="1"
+
+    android:versionName="1.0">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:name=".Service.App"
+        android:allowBackup="true"
+        android:icon="@drawable/love_1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/love_2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".SpanSceen.Span_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KhoiTaoDuLieu.KhoiTao_Activity">
+
+        </activity>
+        <activity android:name=".Gif">
+
+        </activity>
+        <activity android:name=".PassWord.CreatPass">
+
+        </activity>
+        <activity android:name=".PassWord.InPutPass">
+
+        </activity>
+
+        <service android:name=".Service.ExampleService"/>
+    </application>
+
+
+
+</manifest>

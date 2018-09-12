@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sửa Ngày Sinh Nhật"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/mauhongnhat"/>
+
+    <EditText
+        android:id="@+id/ngaysinh1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/mauhongnhat"
+        android:hint="Ngày sinh bạn nam"/>
+
+    <Button
+        android:id="@+id/chonngay1"
+        android:background="@drawable/style6"
+        android:layout_gravity="center_horizontal"
+        android:text="Chọn ngày"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        />
+
+    <EditText
+
+        android:id="@+id/ngaysinh2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/mauhongnhat"
+        android:hint="Ngày sinh bạn nữ"/>
+
+    <Button
+        android:id="@+id/chonngay2"
+        android:layout_gravity="center_horizontal"
+        android:text="Chọn ngày"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/style6"
+        />
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:textStyle="bold"
+            android:id="@+id/luu"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:background="@drawable/style6"
+            android:layout_gravity="center"
+            android:text="Lưu"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:id="@+id/huybo"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:background="@drawable/style6"
+            android:layout_gravity="center"
+            android:text="Hủy bỏ"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESIGN BY DevAndroid"/>
+
+
+</LinearLayout>
